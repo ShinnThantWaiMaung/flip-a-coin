@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Coin Flip PWA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1e1e1e">
+    <link rel="icon" type="image/png" href="heads.png">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Coin Flip</h1>
+        
+        <div class="coin-container">
+            <div class="coin" id="coin">
+                <div class="face heads">
+                    <img src="heads.png" alt="Heads">
+                </div>
+                <div class="face tails">
+                    <img src="tails.png" alt="Tails">
+                </div>
+            </div>
+        </div>
+
+        <p id="status">Tap the button to flip!</p>
+
+        <button id="flipBtn">FLIP IT!</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
